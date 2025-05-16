@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:wcf="http://schemas.datacontract.org/2004/07/WcfMovieService">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddMovie>
+         <tem:movie>
+            <wcf:Code>MDE9876543</wcf:Code>
+            <wcf:Director>Ryan Coogler</wcf:Director>
+            <wcf:Id>0</wcf:Id>
+            <wcf:Title>Black Panther</wcf:Title>
+            <wcf:Year>2018</wcf:Year>
+         </tem:movie>
+      </tem:AddMovie>
+   </soapenv:Body>
+</soapenv:Envelope>

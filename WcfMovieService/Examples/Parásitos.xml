@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:wcf="http://schemas.datacontract.org/2004/07/WcfMovieService">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddMovie>
+         <tem:movie>
+            <wcf:Code>MDE8795432</wcf:Code>
+            <wcf:Director>Bong Joon-ho</wcf:Director>
+            <wcf:Id>0</wcf:Id>
+            <wcf:Title>Parasite</wcf:Title>
+            <wcf:Year>2019</wcf:Year>
+         </tem:movie>
+      </tem:AddMovie>
+   </soapenv:Body>
+</soapenv:Envelope>

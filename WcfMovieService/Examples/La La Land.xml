@@ -1,0 +1,14 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:wcf="http://schemas.datacontract.org/2004/07/WcfMovieService">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:AddMovie>
+         <tem:movie>
+            <wcf:Code>MDE3698521</wcf:Code>
+            <wcf:Director>Damien Chazelle</wcf:Director>
+            <wcf:Id>0</wcf:Id>
+            <wcf:Title>La La Land</wcf:Title>
+            <wcf:Year>2016</wcf:Year>
+         </tem:movie>
+      </tem:AddMovie>
+   </soapenv:Body>
+</soapenv:Envelope>
