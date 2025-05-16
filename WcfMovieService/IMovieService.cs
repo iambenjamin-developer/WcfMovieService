@@ -22,6 +22,13 @@ namespace WcfMovieService
 
         [OperationContract]
         bool DeleteMovie(int id);
+
+        [OperationContract]
+        Movie GetMovieByCode(string code);
+
+        [OperationContract]
+        bool UpsertMovie(Movie movie);
+
     }
 
     [DataContract]
@@ -29,6 +36,9 @@ namespace WcfMovieService
     {
         [DataMember]
         public int Id { get; set; }
+
+        [DataMember]
+        public string Code { get; set; }
 
         [DataMember]
         public string Title { get; set; }
