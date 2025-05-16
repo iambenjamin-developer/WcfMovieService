@@ -1,0 +1,14 @@
+﻿<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tem="http://tempuri.org/" xmlns:wcf="http://schemas.datacontract.org/2004/07/WcfMovieService">
+	<soapenv:Header/>
+	<soapenv:Body>
+		<tem:UpsertMovie>
+			<tem:movie>
+				<wcf:Code>MDE7946999</wcf:Code>
+				<wcf:Director>Lana Wachowski, Lilly Wachowski</wcf:Director>
+				<wcf:Id>0</wcf:Id>
+				<wcf:Title>The Matrix</wcf:Title>
+				<wcf:Year>1999</wcf:Year>
+			</tem:movie>
+		</tem:UpsertMovie>
+	</soapenv:Body>
+</soapenv:Envelope>

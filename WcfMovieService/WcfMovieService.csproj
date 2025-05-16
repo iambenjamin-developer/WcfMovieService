@@ -71,6 +71,7 @@
     <Content Include="Examples\Parásitos.xml" />
     <Content Include="Examples\Titanic.xml" />
     <Content Include="Examples\Toy Story.xml" />
+    <Content Include="Examples\UpSert\Matrix.xml" />
     <Content Include="MovieService.svc" />
     <Content Include="Service1.svc" />
     <Content Include="Web.config" />
